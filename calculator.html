@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="call.css" />
+</head>
+    
+
+  <div class="calculator">
+
+          <div id="result" onclick="displayInput('0')">
+            <p>0</p>
+          </div><hr>
+ 
+      <div class="buttons">
+          <div class="cal" onclick="clearDisplay('C')">
+            <p>C</p>
+          </div>
+
+          <div class="cal" onclick="displayInput('()')">
+            <p>( )</p>
+          </div>
+          <div class="cal" onclick="displayInput('%')">
+            <p>%</p>
+          </div>
+          <div class="cal" onclick="displayInput('/')">
+            <p>/</p>
+          </div>
+          <div class="num" onclick="displayInput('7')">
+            <p>7</p>
+          </div>
+          <div class="num" onclick="displayInput('8')">
+            <p>8</p>
+          </div>
+          <div class="num" onclick="displayInput('9')">
+            <p>9</p>
+          </div>
+          <div class="cal" onclick="displayInput('*')">
+            <p>*</p>
+          </div>
+          <div class="num" onclick="displayInput('4')">
+            <p>4</p>
+          </div>
+          <div class="num" onclick="displayInput('5')">
+            <p>5</p>
+          </div>
+          <div class="num" onclick="displayInput('6')">
+            <p>6</p>
+          </div>
+          <div class="cal" onclick="displayInput('-')">
+            <p>-</p>
+          </div>
+          <div class="num" onclick="displayInput('1')">
+            <p>1</p>
+          </div>
+          <div class="num" onclick="displayInput('2')">
+            <p>2</p>
+          </div>
+          <div class="num" onclick="displayInput('3')">
+            <p>3</p>
+          </div>
+          <div class="cal" onclick="displayInput('+')">
+            <p>+</p>
+          </div>
+          <div class="cal" onclick="displayInput('+/-')">
+            <p>+/-</p>
+          </div>
+          <div class="num" onclick="displayInput('0')">
+            <p>0</p>
+          </div>
+          <div class="cal" onclick="displayInput('.')">
+            <p>.</p>
+          </div>
+
+          <div class="equalto" onclick="calculateResult('=')">
+            <p>=</p>
+          </div>
+
+      </div> 
+          
+  </div>
+   <script src="cal.js"></script>
+
+</body>
+</html>

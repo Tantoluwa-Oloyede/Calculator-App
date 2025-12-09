@@ -1,0 +1,97 @@
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right, #ff6a00, #00c6ff);
+    font-family: Arial, sans-serif;
+}
+
+.calculator{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 17px 10px 10px 10px;
+    margin-top: 150px;
+    box-shadow: #ff4000;
+}
+
+#result {
+  border: 2px solid rgb(196, 194, 194);
+  color: white;
+  border-radius: 2px;
+  height: 30px;
+  display: flex;               
+  justify-content: end;     
+  align-items: end;
+  padding-right: 5px;
+  text-align: center;
+}
+
+#result p{
+  margin-bottom: 7px;
+}
+
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.num {
+  background-color: rgb(255, 255, 255);     
+  color: rgb(26, 25, 25);               
+  width: 40px;                 
+  height: 40px;                
+  border-radius: 50%;          
+  display: flex;               
+  justify-content: center;     
+  align-items: center;          
+  cursor: pointer;         
+  font-weight: bolder;                 
+  font-size: 18px;             
+  margin: 2px;                 
+}
+
+.num:active {
+  background-color: gray;      
+}
+
+.cal{   
+  background-color: rgb(173, 173, 173);
+  color: rgb(26, 25, 25);               
+  width: 40px;                 
+  height: 40px;                
+  border-radius: 50%;          
+  display: flex;               
+  justify-content: center;     
+  align-items: center;          
+  cursor: pointer;         
+  font-weight: bolder;                 
+  font-size: 18px;             
+  margin: 2px; 
+}
+
+.cal:active {
+  background-color: rgb(255, 255, 255);      
+}
+
+.equalto{
+    background-color: #026b38;
+    color: white;                
+    width: 40px;                 
+    height: 40px;                
+    border-radius: 50%;        
+    display: flex;               
+    justify-content: center;      
+    align-items: center;        
+    cursor: pointer;              
+    user-select: none;            
+    font-size: 20px;            
+    margin: 2px;  
+}
+
+.equalto:active {
+  background-color: rgb(223, 223, 223);     
+  color: black; 
+}
